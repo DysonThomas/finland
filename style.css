@@ -1,0 +1,69 @@
+
+/* Navbar */
+#icon-brand{
+    height:100%;
+}
+
+#navbar-custom{
+    margin: 0 32%;
+    /* margin: 0 auto; */
+    font-family: 'Oxygen', sans-serif;  
+}
+
+
+
+/* menu-banner */
+
+.banner-menu_bg {
+    background-image: url("Asset/Img/banner.png");
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .banner-menu {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .banner-menu:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  content: "";
+  opacity: 0.6;
+  z-index: -1;
+}
+  
+  .banner-menu .banner-menu .banner-menu_iner_item {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .banner-menu .banner-menu_iner .banner-menu_iner_item h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 15%;
+    text-transform: capitalize;
+  }
+  #breadcrumb-cust{
+      color:white
+  }
+
+ 
+
+
+  /* menu title */
+
+  #tite-set{
+   text-align: center;
+  }
+
+
+  /*Menu Item*/
+
+ 

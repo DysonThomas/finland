@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+    <nav class="navbar has-navbar-fixed-top is-transparent px-6 mt-3" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img id="icon-brand" src="Asset\Img\logo.png">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div id="navbar-custom" class="navbar-start">
+            
+
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Menu
+              </a>
+              <a class="navbar-item">
+                Chefs
+              </a>
+              <a class="navbar-item">
+             Contact
+              </a>
+      
+            <!-- >
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div> -->
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="button is-primary is-outlined ">
+                        <strong><i class="far fa-user"></i></strong>
+                      </a>
+                      <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Login/SignUp
+                          </a>
+                          <a class="navbar-item">
+                            Orders
+                          </a>
+                          <a class="navbar-item">
+                           Profile
+                          </a>
+
+                      </div>
+                </div>
+                
+              <div class="buttons ml-2">
+                  <a class="button is-primary ">
+                    <i class="fas fa-cart-plus"></i>
+                  </a>
+               
+              
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </nav>
+    
+
+
+
+      <!-- Menu-Banner -->
+      <section class="banner-menu banner-menu_bg">
+            <div class="columns">
+                <div class="column">
+                    <div class="banner-menu_iner text-center">
+                        <div class="banner-menu_iner_item">
+                            <h2>Food Menu</h2>
+                            <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+                              <ul>
+                                <li><a id="breadcrumb-cust" href="#">
+                                  <span class="icon is-small ">
+                                      <i class="fas fa-home" aria-hidden="true"></i>
+                                    </span>
+                                    Home</a></li>
+                                <li><a id="breadcrumb-cust" href="#">
+                                  <span class="icon  is-small">
+                                      <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>Menu</a></li>
+                              </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+      <!-- Menu Title -->
+      <section  class="hero">
+        <div class="hero-body">
+        <div id="tite-set" class="coumns is-mobile is-centered">
+          <div  class="column">
+              <h1 class="title">Delicious Food Menu</h1>
+          </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- Menu-list -->
+    <section>
+    
+      <div class="tabs is-toggle is-medium is-centered is-mobile is-multiline">
+        <ul>
+          <li><a><span class="icon is-small is-hoverable"><i class="fas fa-utensils"></i></span>Special</a></li>
+          <li><a><span class="icon is-small"><i class="fas fa-cookie"></i></span><span>BreakFast</span></a></li>
+          <li><a><span class="icon is-small"><i class="fas fa-concierge-bell"></i></span><span>Lunch</span></a></li>
+          <li><a><span class="icon is-small"><i class="fas fa-apple-alt"></i></span><span>Dinner</span></a></li>
+          <li><a><span class="icon is-small"><i class="fas fa-coffee"></i></span><span>Snacks</span></a></li>
+        </ul>
+      </div>
+      <!-- Cards -->
+      <div class="columns px-6 is-mobile is-multiline">
+        <div class="column is-one-quarter">
+          <div class="columns">
+            <div class="column is-half">
+              <img src="Asset\food_menu\single_food_1.png" alt="">
+            </div>
+            <div class="column is-half">
+              <h1>Pork Sandwich</h1><br>
+              <p>Lorem ipsum dolor sit amet,</p>
+              <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+            </div>
+          </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="columns">
+          <div class="column is-half">
+            <img src="Asset\food_menu\single_food_1.png" alt="">
+          </div>
+          <div class="column is-half">
+            <h1>Pork Sandwich</h1><br>
+            <p>Lorem ipsum dolor sit amet,</p>
+            <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="column is-one-quarter">
+      <div class="columns">
+        <div class="column is-half">
+          <img src="Asset\food_menu\single_food_1.png" alt="">
+        </div>
+        <div class="column is-half">
+          <h1>Pork Sandwich</h1><br>
+          <p>Lorem ipsum dolor sit amet,</p>
+          <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+  </div>
+  <div class="column is-one-quarter">
+    <div class="columns">
+      <div class="column is-half">
+        <img src="Asset\food_menu\single_food_1.png" alt="">
+      </div>
+      <div class="column is-half">
+        <h1>Pork Sandwich</h1><br>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+      </div>
+    </div>
+</div>
+<div class="column is-one-quarter">
+  <div class="columns">
+    <div class="column is-half">
+      <img src="Asset\food_menu\single_food_1.png" alt="">
+    </div>
+    <div class="column is-half">
+      <h1>Pork Sandwich</h1><br>
+      <p>Lorem ipsum dolor sit amet,</p>
+      <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+    </div>
+  </div>
+</div>
+<div class="column is-one-quarter">
+  <div class="columns">
+    <div class="column is-half">
+      <img src="Asset\food_menu\single_food_1.png" alt="">
+    </div>
+    <div class="column is-half">
+      <h1>Pork Sandwich</h1><br>
+      <p>Lorem ipsum dolor sit amet,</p>
+      <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+    </div>
+  </div>
+</div>
+<div class="column is-one-quarter">
+  <div class="columns">
+    <div class="column is-half">
+      <img src="Asset\food_menu\single_food_1.png" alt="">
+    </div>
+    <div class="column is-half">
+      <h1>Pork Sandwich</h1><br>
+      <p>Lorem ipsum dolor sit amet,</p>
+      <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+    </div>
+  </div>
+</div>
+<div class="column is-one-quarter">
+  <div class="columns">
+    <div class="column is-half">
+      <img src="Asset\food_menu\single_food_1.png" alt="">
+    </div>
+    <div class="column is-half">
+      <h1>Pork Sandwich</h1><br>
+      <p>Lorem ipsum dolor sit amet,</p>
+      <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+    </section>
+
+ 
+</body>
+</html>
