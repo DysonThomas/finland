@@ -246,7 +246,13 @@
     <div class="column is-half">
       <h1>Pork Sandwich</h1><br>
       <p>Lorem ipsum dolor sit amet,</p>
-      <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button>
+      <!-- <button class="button is-primary">Add To Bag <i class="fas fa-cart-plus"></i></button> -->
+      
+        <div class="qty-add mt-1">
+            <p><span class="dec ml-2" @click="dec"> - </span>1<span class="add"
+                    @click="add">+</span></p>
+        </div>
+    </div>
     </div>
   </div>
 </div>

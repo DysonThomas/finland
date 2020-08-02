@@ -66,4 +66,23 @@
 
   /*Menu Item*/
 
- 
+  .qty-add {
+    color: #00d1b2;
+    border: 1px solid #babad0;
+    font-size: 15px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+.add {
+    color: #4CB963;
+    margin-left: 20%;
+    cursor: pointer;
+    font-size: 19px;
+}
+.dec {
+    color: gray;
+    margin-right: 20%;
+    cursor: pointer;
+    font-size: 19px;
+}
