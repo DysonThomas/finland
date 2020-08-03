@@ -9,9 +9,6 @@
     /* margin: 0 auto; */
     font-family: 'Oxygen', sans-serif;  
 }
-
-
-
 /* menu-banner */
 
 .banner-menu_bg {
@@ -58,12 +55,6 @@
       margin-top: 55%;
     }
   }
-
-  
-
- 
-
-
   /* menu title */
 
   #tite-set{
@@ -92,4 +83,8 @@
     margin-right: 20%;
     cursor: pointer;
     font-size: 19px;
+}
+/* Footer */
+#copy-right{
+  text-align: center;
 }
