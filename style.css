@@ -63,6 +63,12 @@
 
 
   /*Menu Item*/
+  #cardcontents{
+    text-align: center;
+  }
+  .card {
+    height: 100%;
+  }
 
   .qty-add {
     color: #00d1b2;
