@@ -1,30 +1,32 @@
-
 /* Navbar */
-#icon-brand{
-    height:100%;
+#icon-brand {
+  height: 100%;
 }
 
-#navbar-custom{
-    margin: 0 32%;
-    /* margin: 0 auto; */
-    font-family: 'Oxygen', sans-serif;  
+#navbar-custom {
+  margin: 0 32%;
+  /* margin: 0 auto; */
+  font-family: 'Oxygen', sans-serif;
 }
+
 /* menu-banner */
 
 .banner-menu_bg {
-    background-image: url("Asset/Img/banner.png");
-    background-position: center;
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("Asset/Img/banner.png");
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  }
-  .banner-menu {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-  }
-  .banner-menu:after {
+}
+
+.banner-menu {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.banner-menu:after {
   position: absolute;
   left: 0;
   top: 0;
@@ -35,51 +37,91 @@
   opacity: 0.6;
   z-index: -1;
 }
-  
-  .banner-menu .banner-menu .banner-menu_iner_item {
-    display: table-cell;
-    vertical-align: middle;
-  }
-  .banner-menu .banner-menu_iner .banner-menu_iner_item h2 {
-    color: #fff;
-    font-size: 45px;
-    font-weight: 600;
-    margin-top: 15%;
-    text-transform: capitalize;
-  }
-  #breadcrumb-cust{
-      color:white
-  }
-  @media only screen and (max-width: 400px) {
-    .banner-menu_iner_item{
-      margin-top: 55%;
-    }
-  }
-  /* menu title */
 
-  #tite-set{
-   text-align: center;
+.banner-menu .banner-menu .banner-menu_iner_item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner-menu .banner-menu_iner .banner-menu_iner_item h2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 15%;
+  text-transform: capitalize;
+}
+
+#breadcrumb-cust {
+  color: white
+}
+
+@media only screen and (max-width: 400px) {
+  .banner-menu_iner_item {
+    margin-top: 55%;
   }
+}
+
+/* menu title */
+
+#tite-set {
+  text-align: center;
+}
 
 
-  /*Menu Item*/
-  #cardcontents{
-    text-align: center;
-  }
-  .card {
-    height: 100%;
-  }
+/*Menu Item*/
+#cardcontents {
+  text-align: center;
+}
+
 /* Footer */
-#copy-right{
+#copy-right {
   text-align: center;
 }
 
 
 /* Cart */
-
+/* 
 .qty {
   float: left;
+} */
+
+.qty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
+
+.qty span {
+  cursor: pointer;
+  width: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, .1);
+  font-size: 13px;
+  background-color: #f9f9f9;
+}
+
+.qty span:hover {
+  background-color: #fff;
+}
+
+.qty span.qty-subtract {
+  border-right: 0;
+  border-radius: 25px 0 0 25px;
+}
+
+.qty span.qty-add {
+  border-left: 0;
+  border-radius: 0 25px 25px 0;
+}
+<<<<<<< HEAD
 .qty{
 display: -webkit-box;
 display: -ms-flexbox;
@@ -183,5 +225,80 @@ width: 48px;
     margin-left:35%;
   }
   }
+=======
 
+.qty input {
+  background-color: #f9f9f9;
+  border: 0;
+  outline: none;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
 
+.qty input {
+  height: 48px;
+  width: 48px;
+}
+
+#PriceCard {
+  width: 90%;
+  height: 350px;
+}
+
+.table.is-borderless td,th {
+  border: 0;
+}
+
+@media only screen and (max-width: 1260px) {
+  #cart-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  #PriceCard {
+    height: 100%;
+  }
+
+  #cart-card {
+    width: 100%;
+  }
+
+  #carddetails {
+    text-align: center;
+  }
+  
+  #car-column {
+    height: 70%;
+  }
+
+  #qtybutton {
+    margin-left: 5%;
+  }
+
+  #img-content {
+    margin-left: 20%;
+  }
+}
+>>>>>>> 9dcf4c2a985e64a53de1e2d2e1f78894c4de8dbb
+
+@media screen and (max-width: 1260px) {
+  #PriceCard {
+    height: 100%;
+  }
+} 
+.card-content {
+  padding: 20px;
+}
+
+.savebtn {
+  margin: 0px 30px;
+  padding: 5px;
+  border: rgba(0, 0, 0, .1) solid;
+  border-radius: 20px;
+  width: 80%;
+  height: 40px;
+}
