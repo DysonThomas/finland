@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 
@@ -18,7 +18,7 @@
 
   <!-- Navbar -->
 
-  <nav class="navbar px-6 mt-3" role="navigation" aria-label="main navigation">
+  <nav class="navbar px-6 mt-4 " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <img id="icon-brand" src="Asset\Img\logo.png">
@@ -34,8 +34,6 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div id="navbar-custom" class="navbar-start">
-
-
         <a class="navbar-item">
           Home
         </a>
@@ -52,20 +50,6 @@
         <a class="navbar-item">
           Contact
         </a>
-
-        <!-- >
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div> -->
       </div>
 
       <div class="navbar-end">
@@ -84,142 +68,165 @@
               <a class="navbar-item">
                 Profile
               </a>
-
             </div>
           </div>
-
           <div class="buttons ml-2">
             <a class="button  is-success is-rounded">
               <i class="fas fa-cart-plus"></i>
             </a>
-
-
           </div>
         </div>
       </div>
-
     </div>
-
   </nav>
-  <!-- Cart Design  -->
+
+
+
+
   <div class="container">
-  <div   class="columns is-mobile is-multiline">
-    <div  class="column is-two-thirds" id="car-column">
-      <div class="card ml-5 mt-3" id="cart-card" >
-        <div class="card-content">
-          <!-- Cart Content -->
-          <div class="columns">
-            <!-- Cart Image  -->
-            <div  class="column  is-2">
+    <div class="columns mt-5">
+      <div class="column is-two-thirds">
+
+        <div class="card my-5 mx-5">
+          <div class="card-content columns">
+            <div class="column is-one-fifth">
               <figure class="image is-128x128">
-                <img id="img-content" src="Asset\food_menu\single_food_1.png" alt="Placeholder image">
+                <img class="is-rounded" src="Asset\food_menu\single_food_1.png">
               </figure>
             </div>
-            <!-- Cart Details  -->
-            <div id="carddetails" class="column ml-5">
-                <h1 class="subtitle mb-2">Pork Sandwich</h1>
-                <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <!-- Qty Button -->
-                 <div id="qtybutton" class="qty mt-4">
+            <div id="carddetails" class="column">
+              <h1 class="subtitle mb-2">Pork Sandwich</h1>
+              <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+              <div class="columns mt-3" >
+                <div id="qtybutton" class="column qty ">
                   <span class="qty-subtract"><i class="fas fa-minus"></i></span>
                   <input type="text" name="qty" value="1">
                   <span class="qty-add"><i class="fas fa-plus"></i></span>
-                  </div><br>
-                  <button class="button is-text">Save for later</button>
-                  <button class="button is-text">Remove</button>
+                </div>
                 
+                  <button class="column button is-success mt-4 savebtn">Save for later</button>
+                  <button class="column button is-success mt-4 savebtn">Remove Item</button>
+              </div>
+
             </div>
           </div>
         </div>
-      </div>
-     
-    </div>
-    <!-- Cart Price -->
-    <div class="column">
-    <div id="PriceCard" class="card mt-3 pl-5">
-      <div class="card-content">
-        <div class="content">
-          <h1 class="subtitle">PRICE DETAILS</h1>
-         <hr>
-         <div class="table-container">
-          <table class="table is-borderless">
-            <tr>
-              <td>
-                Item Total
-              </td>
-              <td>
-                ₹1250
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Delivery Fee
-              </td>
-              <td>
-                ₹40
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Tax and Charges
-              </td>
-              <td>
-                ₹52
-              </td>
-            </tr>
-          </table>
-        </div>
-         
 
-         <!-- <div class="columns">
-           <div class="column is-half">
-             <p>Item Total</p>
-             <p>Delivery Fee</p>
-             <p>Tax and Charges</p>
-           </div>
-           <div class="column is-half">
-            <p>₹1250</p>
-            <p>₹40</p>
-            <p>₹52</p>
-          </div>
-         </div> -->
-         <button class="button is-success is-fullwidth">Place Order</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  
+        <div class="card my-5 mx-5">
+          <div class="card-content columns">
+            <div class="column is-one-fifth">
+              <figure class="image is-128x128">
+                <img class="is-rounded" src="Asset\food_menu\single_food_1.png">
+              </figure>
+            </div>
+            <div id="carddetails" class="column">
+              <h1 class="subtitle mb-2">Pork Sandwich</h1>
+              <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
+              <div class="columns mt-3" >
+                <div id="qtybutton" class="column qty ">
+                  <span class="qty-subtract"><i class="fas fa-minus"></i></span>
+                  <input type="text" name="qty" value="1">
+                  <span class="qty-add"><i class="fas fa-plus"></i></span>
+                </div>
+                
+                  <button class="column button is-success mt-4 savebtn">Save for later</button>
+                  <button class="column button is-success mt-4 savebtn">Remove Item</button>
+              </div>
 
-
-
-
- <!-- Footer All Pages  -->
-<section class="hero mt-6">
-        <div class="hero-body">
-          <div class="columns ">
-           
-            <div id="cardcontents" class="column">
-              <hi class="title">Contact US</hi>
-              <p class="mt-5">Address: Near Palarivattam Bridge,Finland</p>
-              <p>Phone No:+358 5895774588</p>
-              <p>Email:test@email.com</p>
-              <i class="fab fa-facebook-f mr-2 mt-5"></i>
-              <i class="fab fa-instagram"></i>
             </div>
           </div>
-          <div class="columns"  id="cardcontents">
-            <dic class="column">
+        </div>
+
+        
+
+      </div>
+
+
+      <div class="column is-one-third">
+        <div id="PriceCard" class="card mx-5">
+          <div class="card-content">
+            <div class="content">
+              <h1 class="subtitle">PRICE DETAILS</h1>
               <hr>
-              <p>©2020 - All Rights Reserved to <a href="entinker.com">Entinker</a></p>
+              <div class="table-container">
+                <table class="table is-borderless">
+                  <tr>
+                    <td>Item Total</td>
+                    <td>₹1250</td>
+                  </tr>
+                  <tr>
+                    <td>Delivery Fee</td>
+                    <td>₹40</td>
+                  </tr>
+                  <tr>
+                    <td>Tax and Charges</td>
+                    <td>₹52</td>
+                  </tr>
+                </table>
+              </div>
+              <button class="button is-success is-fullwidth" style="border-radius: 20px;">Place Order</button>
+            </div>
           </div>
         </div>
-        </div>
-        </div>
-</section>
+      </div>
+
+    </div>
+  </div>
 
 
-  </body>
-  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="hero mt-6">
+    <div class="hero-body">
+      <div class="columns ">
+
+        <div id="cardcontents" class="column">
+          <hi class="title">Contact US</hi>
+          <p class="mt-5">Address: Near Palarivattam Bridge,Finland</p>
+          <p>Phone No:+358 5895774588</p>
+          <p>Email:test@email.com</p>
+
+          <i class="fab fa-facebook-f mx-2 my-5"></i>
+          <i class="fab fa-instagram mx-2 my-5"></i>
+          <i class="fab fa-twitter mx-2 my-5"></i>
+          <i class="fab fa-linkedin mx-2 my-5"></i>
+          <i class="fab fa-github mx-2 my-5"></i>
+
+        </div>
+      </div>
+      <div class="columns" id="cardcontents">
+        <dic class="column">
+          <hr>
+          <p>©2020 - All Rights Reserved to <a href="entinker.com">Entinker</a></p>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
