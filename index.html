@@ -102,66 +102,39 @@
 
   </nav>
   <!-- Cart Design  -->
-  <div class="columns is-mobile is-multiline">
-    <div class="column  is-two-thirds">
-      <div id="cart-card" class="card ml-5 mt-3">
+  <div class="container">
+  
+  <div   class="columns mt-6 is-mobile is-multiline">
+   
+    <div  class="column is-two-thirds" id="car-column">
+      <div class="card ml-5 mt-3" id="cart-card" >
         <div class="card-content">
           <!-- Cart Content -->
-          <div class="columns is-one-fifth">
+          <div class="columns">
             <!-- Cart Image  -->
-            <div class="column is-2">
+            <div  class="column  is-2">
               <figure class="image is-128x128">
-                <img src="Asset\food_menu\single_food_1.png" alt="Placeholder image">
+                <img id="img-content" src="Asset\food_menu\single_food_1.png" alt="Placeholder image">
               </figure>
             </div>
             <!-- Cart Details  -->
-            <div class="column">
+            <div id="carddetails" class="column ml-5">
                 <h1 class="subtitle mb-2">Pork Sandwich</h1>
                 <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <!-- Qty Button -->
-                <div class="qty mt-4">
+                 <div id="qtybutton" class="qty mt-4">
                   <span class="qty-subtract"><i class="fas fa-minus"></i></span>
                   <input type="text" name="qty" value="1">
                   <span class="qty-add"><i class="fas fa-plus"></i></span>
-                  </div>
+                  </div><br>
+                  <button class="button is-text">Save for later</button>
+                  <button class="button is-text">Remove</button>
                 
             </div>
           </div>
         </div>
-        <footer class="card-footer">
-          <a href="#" class="card-footer-item">Save For Later</a>
-          <a href="#" class="card-footer-item">Remove</a>
-        </footer>
       </div>
-      <div id="cart-card" class="card ml-5 mt-3">
-        <div class="card-content">
-          <!-- Cart Content -->
-          <div class="columns is-one-fifth">
-            <!-- Cart Image  -->
-            <div class="column is-2">
-              <figure class="image is-128x128">
-                <img src="Asset\food_menu\single_food_1.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <!-- Cart Details  -->
-            <div class="column">
-                <h1 class="subtitle mb-2">Pork Sandwich</h1>
-                <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <!-- Qty Button -->
-                <div class="qty mt-4">
-                  <span class="qty-subtract"><i class="fas fa-minus"></i></span>
-                  <input type="text" name="qty" value="1">
-                  <span class="qty-add"><i class="fas fa-plus"></i></span>
-                  </div>
-                
-            </div>
-          </div>
-        </div>
-        <footer class="card-footer">
-          <a href="#" class="card-footer-item">Save For Later</a>
-          <a href="#" class="card-footer-item">Remove</a>
-        </footer>
-      </div>
+     
     </div>
     <!-- Cart Price -->
     <div class="column">
@@ -170,7 +143,37 @@
         <div class="content">
           <h1 class="subtitle">PRICE DETAILS</h1>
          <hr>
-         <div class="columns">
+         <div class="table-container">
+          <table class="table is-borderless">
+            <tr>
+              <td>
+                Item Total
+              </td>
+              <td>
+                ₹1250
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Delivery Fee
+              </td>
+              <td>
+                ₹40
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Tax and Charges
+              </td>
+              <td>
+                ₹52
+              </td>
+            </tr>
+          </table>
+        </div>
+         
+
+         <!-- <div class="columns">
            <div class="column is-half">
              <p>Item Total</p>
              <p>Delivery Fee</p>
@@ -181,11 +184,12 @@
             <p>₹40</p>
             <p>₹52</p>
           </div>
-         </div>
+         </div> -->
          <button class="button is-success is-fullwidth">Place Order</button>
         </div>
       </div>
     </div>
+  </div>
   </div>
   </div>
   

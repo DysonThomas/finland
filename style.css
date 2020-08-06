@@ -127,18 +127,61 @@ height: 48px;
 width: 48px;
 }
 /* price card */
-#PriceCard{
-  width: 90%;
+#car-column{
   height: 70%;
 }
-#cart-card
-{
-  height: 50%;
+#PriceCard{
+  width: 90%;
+  height: 100%;
 }
-@media only screen and (max-width: 400px) {
+
+.table.is-borderless
+  td, 
+  th{
+    border: 0;
+  }
+  @media only screen and (max-width: 400px) {
+    #cart-card{
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
   #PriceCard{
     height: 100%;
   }
+  #cart-card{
+    width: 100%;
+  }
+  #carddetails{
+    text-align: center;
+   }
+  #car-column{
+    padding-right:100px;
+    margin-right: 2%;
+  }
+  #qtybutton{
+    margin-left:5%;
+  }
+  #img-content{
+    margin-left: 20%;
+  }
+  /* #cart-card
+{
+  text-align: center;
+  height: 100%;
+} */
 }
+@media screen and (max-width: 1260px) {
+  #PriceCard{
+    height: 100%;
+  }
+  #carddetails{
+   text-align: center;
+  }
+  #qtybutton{
+    margin-left:35%;
+  }
+  }
 
 
