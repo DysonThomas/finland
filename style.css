@@ -121,111 +121,6 @@
   border-left: 0;
   border-radius: 0 25px 25px 0;
 }
-<<<<<<< HEAD
-.qty{
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
-}
-.qty span{
-cursor: pointer;
-width: 40px;
-display: -webkit-inline-box;
-display: -ms-inline-flexbox;
-display: inline-flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-border: 1px solid rgba(0,0,0,.1);
-font-size: 13px;
-background-color: #f9f9f9;
-}
-.qty span:hover{
-background-color: #fff;
-}
-.qty span.qty-subtract{
-border-right: 0;
-border-radius: 25px 0 0 25px;
-}
-.qty span.qty-add{
-border-left: 0;
-border-radius: 0 25px 25px 0;
-}
-.qty input{
-background-color: #f9f9f9;
-border: 0;
-outline: none;
-width: 50px;
-height: 40px;
-text-align: center;
-font-weight: 600;
-border: 1px solid rgba(0,0,0,.1);
-}
-.qty input{
-height: 48px;
-width: 48px;
-}
-/* price card */
-#car-column{
-  height: 70%;
-}
-#PriceCard{
-  width: 90%;
-  height: 100%;
-}
-
-.table.is-borderless
-  td, 
-  th{
-    border: 0;
-  }
-  @media only screen and (max-width: 400px) {
-    #cart-card{
-      width: 100%;
-    }
-  }
-
-@media only screen and (max-width: 500px) {
-  #PriceCard{
-    height: 100%;
-  }
-  #cart-card{
-    width: 100%;
-  }
-  #carddetails{
-    text-align: center;
-   }
-  #car-column{
-    padding-right:100px;
-    margin-right: 2%;
-  }
-  #qtybutton{
-    margin-left:5%;
-  }
-  #img-content{
-    margin-left: 20%;
-  }
-  /* #cart-card
-{
-  text-align: center;
-  height: 100%;
-} */
-}
-@media screen and (max-width: 1260px) {
-  #PriceCard{
-    height: 100%;
-  }
-  #carddetails{
-   text-align: center;
-  }
-  #qtybutton{
-    margin-left:35%;
-  }
-  }
-=======
 
 .qty input {
   background-color: #f9f9f9;
@@ -283,7 +178,6 @@ width: 48px;
     margin-left: 20%;
   }
 }
->>>>>>> 9dcf4c2a985e64a53de1e2d2e1f78894c4de8dbb
 
 @media screen and (max-width: 1260px) {
   #PriceCard {
