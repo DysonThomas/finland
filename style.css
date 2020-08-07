@@ -233,7 +233,9 @@
   }
 } 
 /* Popular Dishes */
-
+.main-c{
+  padding-top: 1aa0%;
+}
 #item.card{
 border-bottom-left-radius: 30px;
 }
