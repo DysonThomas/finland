@@ -8,10 +8,13 @@
   /* margin: 0 auto; */
   /* font-family: 'Open Sans', sans-serif; */
 }
-.navbar{
+
+p{
   font-family: 'Open Sans', sans-serif;
 }
-
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Philosopher', sans-serif;
+}
 /* menu-banner */
 
 .banner-menu_bg {
